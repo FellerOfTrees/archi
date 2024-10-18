@@ -1,0 +1,41 @@
+{
+    "root": {
+      "element1": {
+        "@id": "1",
+        "name": "Element 1",
+        "attribute": "Value 1"
+      },
+      "element2": {
+        "@id": "2",
+        "name": "Element 2",
+        "attribute": "Value 2"
+      },
+      "element3": {
+        "@id": "3",
+        "name": "Element 3",
+        "attribute": "Value 3"
+      },
+      "element4": {
+        "@id": "4",
+        "name": "Element 4",
+        "attribute": "Value 4"
+      },
+      "relationship": [
+        {
+          "@source": "1",
+          "@target": "2",
+          "@type": "association"
+        },
+        {
+          "@source": "2",
+          "@target": "3",
+          "@type": "aggregation"
+        },
+        {
+          "@source": "3",
+          "@target": "4",
+          "@type": "composition"
+        }
+      ]
+    }
+  }
