@@ -1,5 +1,63 @@
-<archimate:model xmlns:archimate="http://www.opengroup.org/archimate/1.0">
-  <archimate:business_actor id="1">Customer</archimate:business_actor>
-  <archimate:application_component id="2">Web Server</archimate:application_component>
-  <archimate:association source="1" target="2"/>
-</archimate:model>
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-200c7be925354096aed5d96db13190ea">
+  <name xml:lang="en">8888</name>
+  <elements>
+    <element identifier="id-0304d6348c85422d9bdf7bcf481c2dfe" xsi:type="BusinessService">
+      <name xml:lang="en">Use Case</name>
+    </element>
+    <element identifier="id-71074c1188cc467fabe9e79a874bd99a" xsi:type="BusinessActor">
+      <name xml:lang="en">Actor</name>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-f5f3efba2e584c74a2b57cb0fffd603f" source="id-71074c1188cc467fabe9e79a874bd99a" target="id-0304d6348c85422d9bdf7bcf481c2dfe" xsi:type="Triggering" />
+  </relationships>
+  <organizations>
+    <item>
+      <label xml:lang="en">Business</label>
+      <item identifierRef="id-0304d6348c85422d9bdf7bcf481c2dfe" />
+      <item identifierRef="id-71074c1188cc467fabe9e79a874bd99a" />
+    </item>
+    <item>
+      <label xml:lang="en">Relations</label>
+      <item identifierRef="id-f5f3efba2e584c74a2b57cb0fffd603f" />
+    </item>
+    <item>
+      <label xml:lang="en">Views</label>
+      <item identifierRef="id-906072d3b7da4fac81f4367d95448490" />
+    </item>
+  </organizations>
+  <views>
+    <diagrams>
+      <view identifier="id-906072d3b7da4fac81f4367d95448490" xsi:type="Diagram">
+        <name xml:lang="en">Default View</name>
+        <node identifier="id-3dc393317b744885ab8dea8c8b216ff7" elementRef="id-0304d6348c85422d9bdf7bcf481c2dfe" xsi:type="Element" x="370" y="196" w="153" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Sans" size="14">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-6b1da7f5765f4f878c52f7a6df4fc495" elementRef="id-71074c1188cc467fabe9e79a874bd99a" xsi:type="Element" x="140" y="196" w="120" h="55">
+          <style>
+            <fillColor r="255" g="255" b="181" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Sans" size="14">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <connection identifier="id-a3302e9b693842ff960b754b743c1756" relationshipRef="id-f5f3efba2e584c74a2b57cb0fffd603f" xsi:type="Relationship" source="id-6b1da7f5765f4f878c52f7a6df4fc495" target="id-3dc393317b744885ab8dea8c8b216ff7">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Sans" size="14">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>
