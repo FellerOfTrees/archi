@@ -1,0 +1,5 @@
+<archimate:model xmlns:archimate="http://www.opengroup.org/archimate/1.0">
+  <archimate:business_actor id="1">Customer</archimate:business_actor>
+  <archimate:application_component id="2">Web Server</archimate:application_component>
+  <archimate:association source="1" target="2"/>
+</archimate:model>
